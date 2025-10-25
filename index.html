@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yuvarani's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      header {
+        background-color: #1f1f1f;
+        color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 60px;
+        background: linear-gradient(to right, #e0eafc, #cfdef3);
+      }
+      .hero-text {
+        max-width: 50%;
+      }
+      .hero-text h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+      .hero-text p {
+        font-size: 18px;
+      }
+      .hero-img img {
+        width: 300px;
+        border-radius: 10px;
+        animation: float 3s ease-in-out infinite;
+      }
+      @keyframes float {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+      .profile {
+        padding: 40px;
+        background-color: white;
+        text-align: center;
+      }
+      .profile img {
+        width: 150px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+      .profile h2 {
+        margin-bottom: 10px;
+      }
+      .profile p {
+        font-size: 16px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div><strong>Yuvarani V</strong></div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Skills</a>
+        <a href="#">Certifications</a>
+        <a href="#">Courses</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero" data-aos="fade-up">
+      <div class="hero-text">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          Explore my skills, certifications, and my projects. Designed with
+          passion and precision. And also explore my day to day life experiences
+          in my LinkedIn profile.
+        </p>
+      </div>
+      <div class="hero-img">
+        <img
+          src="https://via.placeholder.com/300x300.png?text=Animated+Photo"
+          alt="Animated profile"
+        />
+      </div>
+    </section>
+
+    <section class="profile" data-aos="fade-up">
+      <img
+        src="https://via.placeholder.com/150.png?text=Your+Photo"
+        alt="Your Photo"
+      />
+      <h2>Yuvarani V</h2>
+      <p>Web Designer | Web Developer | Creative Thinker | Lifelong Learner</p>
+      <p>Master of Computer Applications</p>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
